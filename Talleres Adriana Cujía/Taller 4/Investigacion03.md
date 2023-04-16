@@ -1,5 +1,6 @@
 Investigacion 03
-1)	Las funciones y servicios proporcionados por el OS pueden dividirse en dos categorías, descríbalas
+1)	Las funciones y servicios proporcionados por el OS pueden dividirse en dos categorías, 
+
 Las funciones y servicios proporcionados por el sistema operativo pueden dividirse en dos categorías: las funciones de gestión y las funciones de comunicación.
 
 
