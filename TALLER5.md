@@ -183,3 +183,11 @@ Algunos datos que se encuentran en un PCB son:
 - Los datos de versiones, como el historial de cambios, las fechas, los autores y los comentarios
 
 
+
+9. Describa un modelo de comunicación Cliente-Servidor.
+
+Se define como un punto terminal de una comunicación, cada socket se identifica mediante una ip y un puerto.
+(ip.de.el.cliente:puerto↔ip.de.el.server:p uerto).
+Todos los puertos por debajo del 1024 se consideran bien conocidos y se usan para implementar servicios estándar.
+
+
