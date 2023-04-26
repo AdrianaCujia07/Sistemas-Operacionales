@@ -114,8 +114,7 @@ o	Requiere mantener referencias válidas y sincronizar el acceso a los datos ent
 
 
 
-
-5.	Defina las ventajas y desventajas desde el punto de vista del OS para mensajes de tamaño fijo y de tamaño variable. 
+6.	Defina las ventajas y desventajas desde el punto de vista del OS para mensajes de tamaño fijo y de tamaño variable. 
 
 Algunas ventajas de los mensajes de tamaño fijo son:
 
@@ -151,8 +150,7 @@ Algunas desventajas de los mensajes de tamaño variable son:
 •	Son menos seguros, ya que se incrementa el riesgo de desbordamiento de buffer o de truncamiento de datos.
 
 
-
-6.	Describa los estados de un proceso.
+7.	Describa los estados de un proceso.
 
 
 Los estados básicos de un proceso son:
@@ -166,5 +164,22 @@ Los estados básicos de un proceso son:
 -	Bloqueado: el proceso está en espera de que ocurra algún evento externo, como una entrada/salida o una señal, que le permita continuar su ejecución.
 
 -	Terminado: el proceso ha finalizado su ejecución y se libera su memoria y recursos.
+
+
+
+ 8.	Que datos se encuentran en un PCB. 
+
+Algunos datos que se encuentran en un PCB son:
+
+-	Los requisitos funcionales del producto final, como las especificaciones, las tolerancias y el entorno operativo.
+
+-	Los datos de los componentes, como las fichas técnicas, los modelos CAD, los valores, los símbolos y los identificadores.
+
+-	Los datos del diseño físico, como las propiedades de los materiales, las dimensiones, las capas, las trazas, los orificios y las máscaras de soldadura.
+
+
+-	Los datos de fabricación, como los archivos Gerber, los planos, las listas de materiales y las instrucciones de montaje.
+
+- Los datos de versiones, como el historial de cambios, las fechas, los autores y los comentarios
 
 
