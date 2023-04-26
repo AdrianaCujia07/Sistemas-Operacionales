@@ -6,6 +6,7 @@ la diferencia clave entre la planeación a corto plazo y la planeación a largo 
 
 La planeación a corto plazo apunta a un período de menos de un año y se basa en objetivos como el desarrollo de nuevos productos, la mejora del flujo de caja, la satisfacción de los inversores, etc. La planeación a largo plazo evalúa las amenazas y oportunidades que la empresa puede enfrentar en términos de situaciones sociales, económicas, políticas y competitivas, tanto a nivel local como global. La planeación a largo plazo también implica decisiones sobre gastos de capital, como la compra de equipos e instalaciones, y la implementación de políticas y procedimientos que fortalecen el perfil de la empresa
 
+
 2.	Caracterice dos procesos que se puedan considerar a mediano plazo.
 
 •	Reducir los gastos de transporte y publicidad en una organización en el segundo semestre. Este proceso implica la implementación de estrategias para optimizar los recursos y mejorar la rentabilidad de la empresa en un lapso de seis meses.
@@ -25,3 +26,14 @@ La planeación a corto plazo apunta a un período de menos de un año y se basa 
 
 •	Ejecutar el proceso seleccionado. El kernel termina su ejecución saltando a la instrucción que estaba pendiente de ejecutar en el proceso seleccionado.
 
+
+
+4.	Defina las ventajas y desventajas desde el punto de vista del programador para comunicación síncrona y asíncrona. 
+
+•	Ventajas de la comunicación síncrona:
+
+o	Permite una interacción más rápida y fluida entre los procesos o sistemas, lo que puede mejorar la eficiencia y la productividad.
+
+o	Facilita la resolución de problemas o dudas que puedan surgir durante la comunicación, ya que se puede obtener una respuesta inmediata.
+
+o	Favorece la colaboración y el trabajo en equipo, ya que se puede compartir información y opiniones en el momento.
