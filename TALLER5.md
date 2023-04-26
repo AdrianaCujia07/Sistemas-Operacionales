@@ -9,4 +9,15 @@ La planeación a corto plazo apunta a un período de menos de un año y se basa 
 2.	Caracterice dos procesos que se puedan considerar a mediano plazo.
 
 •	Reducir los gastos de transporte y publicidad en una organización en el segundo semestre. Este proceso implica la implementación de estrategias para optimizar los recursos y mejorar la rentabilidad de la empresa en un lapso de seis meses.
+
 •	Aprender a confeccionar ropa de gala y eventos especiales. Este proceso implica la adquisición de habilidades y conocimientos para elaborar prendas sofisticadas y elegantes en un lapso que puede variar según el nivel de dificultad y el ritmo de aprendizaje.
+
+
+
+3.	Describa las acciones que toma el kernel para el cambio de contexto entre procesos.
+
+
+•	Salvar el estado del proceso que se estaba ejecutando. El estado, también llamado contexto, consiste en los valores de todos los registros del microprocesador. Se copian en la memoria principal.
+
+•	Seleccionar otro proceso para ejecutar. Entre todos los procesos que estén preparados para ejecutarse, el kernel selecciona uno de ellos siguiendo algún algoritmo equitativo.
+
