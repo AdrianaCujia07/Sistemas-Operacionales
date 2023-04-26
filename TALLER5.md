@@ -118,10 +118,53 @@ o	Requiere mantener referencias válidas y sincronizar el acceso a los datos ent
 5.	Defina las ventajas y desventajas desde el punto de vista del OS para mensajes de tamaño fijo y de tamaño variable. 
 
 Algunas ventajas de los mensajes de tamaño fijo son:
+
 •	Son más fáciles de implementar y gestionar por el OS, ya que se pueden usar estructuras de datos simples y algoritmos eficientes para almacenar y transmitir los mensajes.
 
 •	Son más rápidos de enviar y recibir, ya que se evita el sobrecoste de codificar y decodificar la longitud del mensaje.
 
+
 •	Son más seguros, ya que se reduce el riesgo de desbordamiento de buffer o de truncamiento de datos.
+
+
+Algunas desventajas de los mensajes de tamaño fijo son:
+
+•	Son menos flexibles y eficientes, ya que pueden desperdiciar espacio si el contenido del mensaje es menor que la longitud fija, o requerir varios mensajes si el contenido es mayor que la longitud fija.
+
+•	Son menos adecuados para transmitir datos heterogéneos o complejos, ya que se necesita definir un formato estándar para cada tipo de mensaje.
+
+
+Algunas ventajas de los mensajes de tamaño variable son:
+
+•	Son más flexibles y eficientes, ya que se adaptan al contenido del mensaje y se aprovecha mejor el espacio disponible.
+
+•	Son más adecuados para transmitir datos heterogéneos o complejos, ya que se puede usar un formato dinámico para cada tipo de mensaje.
+
+
+Algunas desventajas de los mensajes de tamaño variable son:
+
+•	Son más difíciles de implementar y gestionar por el OS, ya que se necesitan estructuras de datos más complejas y algoritmos más costosos para almacenar y transmitir los mensajes.
+
+•	Son más lentos de enviar y recibir, ya que se añade el sobrecoste de codificar y decodificar la longitud del mensaje.
+
+
+•	Son menos seguros, ya que se incrementa el riesgo de desbordamiento de buffer o de truncamiento de datos.
+
+
+
+6.	Describa los estados de un proceso.
+
+
+Los estados básicos de un proceso son:
+
+-	Nuevo: el proceso se ha creado, pero aún no ha sido admitido por el sistema operativo para su ejecución.
+
+-	Activo: el proceso está en ejecución y utiliza la CPU.
+
+-	Preparado: el proceso está listo para ejecutarse pero espera a que la CPU le sea asignada.
+
+-	Bloqueado: el proceso está en espera de que ocurra algún evento externo, como una entrada/salida o una señal, que le permita continuar su ejecución.
+
+-	Terminado: el proceso ha finalizado su ejecución y se libera su memoria y recursos.
 
 
