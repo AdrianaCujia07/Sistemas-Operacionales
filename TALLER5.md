@@ -37,3 +37,77 @@ o	Permite una interacción más rápida y fluida entre los procesos o sistemas, 
 o	Facilita la resolución de problemas o dudas que puedan surgir durante la comunicación, ya que se puede obtener una respuesta inmediata.
 
 o	Favorece la colaboración y el trabajo en equipo, ya que se puede compartir información y opiniones en el momento.
+
+
+•	Desventajas de la comunicación síncrona:
+
+o	Requiere que los procesos o sistemas estén disponibles y sincronizados al mismo tiempo, lo que puede limitar la flexibilidad y la autonomía
+.
+o	Puede generar interrupciones o distracciones que afecten al rendimiento o a la concentración de los procesos o sistemas involucrados.
+
+o	Puede provocar una sobrecarga de información o de comunicación, ya que se puede recibir más información de la que se puede procesar o responder.
+
+
+•	Ventajas de la comunicación asíncrona:
+
+o	Permite que los procesos o sistemas puedan comunicarse sin depender del tiempo ni del lugar, lo que aumenta la flexibilidad y la adaptabilidad.
+
+o	Facilita la organización y la planificación del trabajo, ya que se puede acceder a la información cuando se necesite y se puede responder cuando se disponga de tiempo.
+
+o	Reduce las interrupciones y las distracciones, ya que se puede elegir el momento más adecuado para comunicarse o recibir información.
+
+
+•	Desventajas de la comunicación asíncrona:
+
+o	Puede demorar la obtención de una respuesta o una solución a un problema o una duda, lo que puede generar incertidumbre o frustración.
+
+o	Puede dificultar la coordinación y la colaboración entre los procesos o sistemas, ya que se pierde la inmediatez y la sincronía de la comunicación.
+
+
+o	Puede generar ambigüedad o malentendidos en la interpretación de los mensajes, ya que se pierden los elementos no verbales o contextuales de la comunicación.
+
+
+
+5.	Defina las ventajas y desventajas desde el punto de vista del OS para envío por copia y envío por referencia. 
+
+
+•	Ventajas del envío por copia:
+
+o	Evita problemas de seguridad o privacidad, ya que el receptor no puede acceder a la memoria del emisor.
+
+o	Garantiza la consistencia de los datos, ya que el receptor recibe una instantánea del contenido del mensaje en el momento del envío.
+
+o	Es más simple y eficiente para mensajes pequeños o poco frecuentes, ya que no requiere mantener referencias ni sincronizar el acceso a los datos.
+
+
+•	Desventajas del envío por copia:
+
+o	Implica un mayor consumo de recursos, ya que se debe duplicar el espacio de memoria y el ancho de banda para enviar y almacenar las copias.
+
+o	Puede generar inconsistencias o pérdidas de información, si el emisor modifica o elimina el contenido del mensaje después del envío .
+
+
+o	Es más lento e ineficiente para mensajes grandes o frecuentes, ya que se debe copiar y transmitir todo el contenido cada vez.
+
+
+
+•	Ventajas del envío por referencia:
+
+o	Implica un menor consumo de recursos, ya que se evita duplicar el espacio de memoria y el ancho de banda para enviar y almacenar las copias .
+
+o	Permite una comunicación más rápida y actualizada, ya que el receptor accede directamente al contenido del mensaje en la memoria del emisor .
+
+
+o	Es más simple y eficiente para mensajes grandes o frecuentes, ya que se debe enviar y almacenar solo una referencia al contenido .
+
+
+•	Desventajas del envío por referencia:
+
+o	Implica problemas de seguridad o privacidad, ya que el receptor puede acceder a la memoria del emisor y modificar o leer datos sensibles .
+
+
+o	Dificulta la consistencia de los datos, ya que el receptor puede recibir una versión obsoleta o inválida del contenido del mensaje si el emisor lo modifica o elimina .
+
+
+o	Requiere mantener referencias válidas y sincronizar el acceso a los datos entre el emisor y el receptor
+
