@@ -68,6 +68,7 @@ o	Puede generar ambigüedad o malentendidos en la interpretación de los mensaje
 
 
 
+
 5.	Defina las ventajas y desventajas desde el punto de vista del OS para envío por copia y envío por referencia. 
 
 
@@ -110,4 +111,17 @@ o	Dificulta la consistencia de los datos, ya que el receptor puede recibir una v
 
 
 o	Requiere mantener referencias válidas y sincronizar el acceso a los datos entre el emisor y el receptor
+
+
+
+
+5.	Defina las ventajas y desventajas desde el punto de vista del OS para mensajes de tamaño fijo y de tamaño variable. 
+
+Algunas ventajas de los mensajes de tamaño fijo son:
+•	Son más fáciles de implementar y gestionar por el OS, ya que se pueden usar estructuras de datos simples y algoritmos eficientes para almacenar y transmitir los mensajes.
+
+•	Son más rápidos de enviar y recibir, ya que se evita el sobrecoste de codificar y decodificar la longitud del mensaje.
+
+•	Son más seguros, ya que se reduce el riesgo de desbordamiento de buffer o de truncamiento de datos.
+
 
