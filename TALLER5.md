@@ -21,3 +21,7 @@ La planeación a corto plazo apunta a un período de menos de un año y se basa 
 
 •	Seleccionar otro proceso para ejecutar. Entre todos los procesos que estén preparados para ejecutarse, el kernel selecciona uno de ellos siguiendo algún algoritmo equitativo.
 
+•	Restaurar el estado del proceso seleccionado. Para ello, se toma el estado previamente copiado en la memoria principal y se vuelca en los registros del microprocesador.
+
+•	Ejecutar el proceso seleccionado. El kernel termina su ejecución saltando a la instrucción que estaba pendiente de ejecutar en el proceso seleccionado.
+
