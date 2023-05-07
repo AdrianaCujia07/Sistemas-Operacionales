@@ -1,0 +1,3 @@
+/root/directorio1/archivo1.txt
+/root/directorio1/archivo2.txt
+/root/directorio1/archivos_encontrados.txt
