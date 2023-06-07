@@ -118,3 +118,23 @@ En un OS con paginación, un proceso no puede acceder a una zona de memoria que 
 
 La cantidad de memoria requerida por las estructuras de traducción de direcciones virtuales a direcciones físicas en el mecanismo de paginación depende del tamaño del espacio de direcciones virtuales y del tamaño de las páginas, mientras que en el mecanismo de segmentación depende del número de segmentos utilizados por el programa. En general, el mecanismo de paginación puede requerir más memoria para la tabla de páginas, ya que necesita una entrada por cada página virtual, mientras que en la segmentación, la cantidad de memoria requerida para la tabla de segmentos está determinada por el número de segmentos utilizados por el programa.
 
+
+## 9 ¿Cuales son las direcciones físicas para las siguientes direcciones lógicas?
+ 1. 0. 430 
+2. 1. 10
+ 3. 2. 500 
+4. 3. 400 
+5. 4. 112
+ Las direcciones físicas correspondientes a las direcciones lógicas dadas son:
+1.	649
+
+2.	2310
+
+3.	590
+
+
+4.	1727
+
+5.	2064
+
+Dirección física = Base + Dirección lógica
